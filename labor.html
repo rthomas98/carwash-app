@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Car Wash - The Dashboard</title>
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<link href="assets/plugins/apexcharts-bundle/css/apexcharts.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<!-- Icons CSS -->
+	<link rel="stylesheet" href="assets/css/icons.css" />
+	<!-- App CSS -->
+	<link rel="stylesheet" href="assets/css/app.css" />
+	<link rel="stylesheet" href="assets/css/dark-header.css" />
+	<link rel="stylesheet" href="assets/css/dark-theme.css" />
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!--header-->
+		<header class="top-header">
+			<nav class="navbar navbar-expand">
+				<div class="sidebar-header">
+					<div class="d-none d-lg-flex">
+					</div>
+					<div>
+						<h4 class="d-none d-lg-flex logo-text">Dashboard</h4>
+					</div>
+					<a href="javascript:;" class="toggle-btn ml-lg-auto"> <i class="bx bx-menu"></i>
+					</a>
+				</div>
+				<div class="flex-grow-1 search-bar">
+					<div class="input-group">
+						
+					</div>
+				</div>
+				<div class="right-topbar ml-auto">
+					
+				</div>
+			</nav>
+		</header>
+		<!--end header-->
+		<!--navigation-->
+		<div class="nav-container">
+			<div class="mobile-topbar-header">
+				<div class="">
+					<img src="assets/images/logo-icon.png" class="logo-icon-2" alt="" />
+				</div>
+				<div>
+					<h4 class="logo-text">Dashboard</h4>
+				</div>
+			
+			</div>
+			<nav class="topbar-nav">
+				<ul class="metismenu" id="menu">
+					<li>
+						<a href="index.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-home-alt"></i>
+							</div>
+							<div class="menu-title">Sales</div>
+						</a>
+					</li>
+					<li>
+						<a href="labor.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-walk"></i>
+							</div>
+							<div class="menu-title">Labor</div>
+						</a>
+					</li>
+					<li>
+						<a href="memberships.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-id-card"></i>
+							</div>
+							<div class="menu-title">Memberships</div>
+						</a>
+					</li>
+					<li>
+						<a href="kiosk.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-window-alt"></i>
+							</div>
+							<div class="menu-title">Kiosk</div>
+						</a>
+					</li>
+					<li>
+						<a href="weather.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-cloud-lightning"></i>
+							</div>
+							<div class="menu-title">Weather</div>
+						</a>
+					</li>
+					<li>
+						<a href="accounting.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-money"></i>
+							</div>
+							<div class="menu-title">Accounting</div>
+						</a>
+					</li>
+					<li>
+						<a href="predictions.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-pie-chart-alt-2"></i>
+							</div>
+							<div class="menu-title">Predictions</div>
+						</a>
+					</li>
+					<li>
+						<a href="comparison.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-transfer-alt"></i>
+							</div>
+							<div class="menu-title">Comparison</div>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!--end navigation-->
+		<!--page-wrapper-->
+		<div class="page-wrapper">
+			<!--page-content-wrapper-->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<!--breadcrumb-->
+					<div class="page-breadcrumb d-none d-md-flex align-items-center mb-3">
+						<div class="breadcrumb-title pr-3">Dashboard</div>
+						<div class="pl-3">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0 p-0">
+									<li class="breadcrumb-item"><a href="javascript:;"><i class='bx bx-walk'></i></a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">Labor</li>
+								</ol>
+							</nav>
+						</div>
+						<div class="ml-auto">
+							<div class="btn-group">
+								
+							</div>
+						</div>
+					</div>
+					<!--end breadcrumb-->
+					
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div>
+										<h5 class="mb-4">Time Clock</h5>
+									</div>
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Frequency</label>
+												<select class="form-control form-control-sm">
+													<option>Daily</option>
+													<option>Weekly</option>
+													<option>Bi-Weekly</option>
+													<option>Monthly</option>
+													<option>Annually</option>
+													<option>Custom</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Location</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>From</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>To</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+									
+									</div>
+
+								<div class="table-responsive">
+									<table class="table mb-0">
+										<thead>
+											<tr>
+												<th scope="col">Name</th>
+												<th scope="col">Hours</th>
+												<th scope="col">Amount</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th scope="row">J Smith</th>
+												<td>40</td>
+												<td>$600.00</td>
+											</tr>
+											<tr>
+												<th scope="row">T White</th>
+												<td>34</td>
+												<td>$510.00</td>
+											</tr>
+											<tr>
+												<th scope="row">B Sanders</th>
+												<td>28</td>
+												<td>$420.00</td>
+											</tr>
+											<tr>
+												<th scope="row">C Johnson</th>
+												<td>40</td>
+												<td>$600.00</td>
+											</tr>
+											<tr>
+												<th scope="row">R Womble</th>
+												<td>42</td>
+												<td>$630.00</td>
+											</tr>
+											<tr>
+												<th scope="row">K Berry</th>
+												<td>29</td>
+												<td>$435.00</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-6">
+											<h5 class="mb-4">Labor Stats</h5>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-6 text-right">
+											
+										</div>
+
+									</div>
+								
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Frequency</label>
+												<select class="form-control form-control-sm">
+													<option>Daily</option>
+													<option>Weekly</option>
+													<option>Bi-Weekly</option>
+													<option>Monthly</option>
+													<option>Annually</option>
+													<option>Custom</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Location</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>From</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>To</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+									
+									</div>
+									
+									<div class="card radius-15 bg-warning">
+										<div class="card-body">
+											<div class="media align-items-center">
+												<div class="media-body">
+													<h4 class="mb-0 font-weight-bold text-white">17%</h4>
+													<p class="mb-0 text-white">Labor % of Sales</p>
+												</div>
+												<div class="font-35 text-white">
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="card radius-15 bg-success">
+										<div class="card-body">
+											<div class="media align-items-center">
+												<div class="media-body">
+													<h4 class="mb-0 font-weight-bold text-white">$1.25</h4>
+													<p class="mb-0 text-white">Labor Cost Per Car</p>
+												</div>
+												<div class="font-35 text-white">
+												</div>
+											</div>
+										</div>
+									</div>
+							
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end row-->
+
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Frequency</label>
+												<select class="form-control form-control-sm">
+													<option>Daily</option>
+													<option>Weekly</option>
+													<option>Bi-Weekly</option>
+													<option>Monthly</option>
+													<option>Annually</option>
+													<option>Custom</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Location</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>From</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>To</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+									
+									</div>
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-6">
+											<h5 class="mb-4">Cars Per Labor Hours</h5>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-6 text-right">
+											<span>Cars: 500</span><br>
+											<span>Labor: $1,000</span><br>
+											<span>Cars Per Labor hour: 8</span>
+										</div>
+									</div>
+								
+									<div id="carslaborshours"></div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--end row-->
+
+
+				</div>
+			</div>
+			<!--end page-content-wrapper-->
+		</div>
+		<!--end page-wrapper-->
+		<!--start overlay-->
+		<div class="overlay toggle-btn-mobile"></div>
+		<!--end overlay-->
+		<!--Start Back To Top Button--> <a href="javascript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+		<!--End Back To Top Button-->
+		<!--footer -->
+		<div class="footer">
+			<p class="mb-0">Car Wash Dashboard &copy; 2021
+			</p>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!-- end wrapper -->
+
+	<!--end switcher-->
+	<!-- JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!--plugins-->
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	<script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+	<script src="assets/plugins/apexcharts-bundle/js/apex-custom.js"></script>
+	<!-- App JS -->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

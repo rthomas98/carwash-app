@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<title>Car Wash - The Dashboard</title>
+	<!--favicon-->
+	<link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
+	<!--plugins-->
+	<link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+	<link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+	<link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+	<link href="assets/plugins/apexcharts-bundle/css/apexcharts.css" rel="stylesheet" />
+	<!-- loader-->
+	<link href="assets/css/pace.min.css" rel="stylesheet" />
+	<script src="assets/js/pace.min.js"></script>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<!-- Icons CSS -->
+	<link rel="stylesheet" href="assets/css/icons.css" />
+	<!-- App CSS -->
+	<link rel="stylesheet" href="assets/css/app.css" />
+	<link rel="stylesheet" href="assets/css/dark-header.css" />
+	<link rel="stylesheet" href="assets/css/dark-theme.css" />
+</head>
+
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!--header-->
+		<header class="top-header">
+			<nav class="navbar navbar-expand">
+				<div class="sidebar-header">
+					<div class="d-none d-lg-flex">
+					</div>
+					<div>
+						<h4 class="d-none d-lg-flex logo-text">Dashboard</h4>
+					</div>
+					<a href="javascript:;" class="toggle-btn ml-lg-auto"> <i class="bx bx-menu"></i>
+					</a>
+				</div>
+				<div class="flex-grow-1 search-bar">
+					<div class="input-group">
+						
+					</div>
+				</div>
+				<div class="right-topbar ml-auto">
+					
+				</div>
+			</nav>
+		</header>
+		<!--end header-->
+		<!--navigation-->
+		<div class="nav-container">
+			<div class="mobile-topbar-header">
+				<div class="">
+					<img src="assets/images/logo-icon.png" class="logo-icon-2" alt="" />
+				</div>
+				<div>
+					<h4 class="logo-text">Dashboard</h4>
+				</div>
+			
+			</div>
+			<nav class="topbar-nav">
+				<ul class="metismenu" id="menu">
+					<li>
+						<a href="index.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-home-alt"></i>
+							</div>
+							<div class="menu-title">Sales</div>
+						</a>
+					</li>
+					<li>
+						<a href="labor.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-walk"></i>
+							</div>
+							<div class="menu-title">Labor</div>
+						</a>
+					</li>
+					<li>
+						<a href="memberships.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-id-card"></i>
+							</div>
+							<div class="menu-title">Memberships</div>
+						</a>
+					</li>
+					<li>
+						<a href="kiosk.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-window-alt"></i>
+							</div>
+							<div class="menu-title">Kiosk</div>
+						</a>
+					</li>
+					<li>
+						<a href="weather.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-cloud-lightning"></i>
+							</div>
+							<div class="menu-title">Weather</div>
+						</a>
+					</li>
+					<li>
+						<a href="accounting.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-money"></i>
+							</div>
+							<div class="menu-title">Accounting</div>
+						</a>
+					</li>
+					<li>
+						<a href="predictions.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-pie-chart-alt-2"></i>
+							</div>
+							<div class="menu-title">Predictions</div>
+						</a>
+					</li>
+					<li>
+						<a href="comparison.html" class="">
+							<div class="parent-icon icon-color-1"><i class="bx bx-transfer-alt"></i>
+							</div>
+							<div class="menu-title">Comparison</div>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!--end navigation-->
+		<!--page-wrapper-->
+		<div class="page-wrapper">
+			<!--page-content-wrapper-->
+			<div class="page-content-wrapper">
+				<div class="page-content">
+					<!--breadcrumb-->
+					<div class="page-breadcrumb d-none d-md-flex align-items-center mb-3">
+						<div class="breadcrumb-title pr-3">Dashboard</div>
+						<div class="pl-3">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb mb-0 p-0">
+									<li class="breadcrumb-item"><a href="javascript:;"><i class='bx bx-window-alt'></i></a>
+									</li>
+									<li class="breadcrumb-item active" aria-current="page">Kiosk</li>
+								</ol>
+							</nav>
+						</div>
+						<div class="ml-auto">
+							<div class="btn-group">
+								<button type="button" class="btn btn-primary">Settings</button>
+								<button type="button" class="btn btn-primary bg-split-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">	<span class="sr-only">Toggle Dropdown</span>
+								</button>
+								<div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left">	<a class="dropdown-item" href="javascript:;">Action</a>
+									<a class="dropdown-item" href="javascript:;">Another action</a>
+									<a class="dropdown-item" href="javascript:;">Something else here</a>
+									<div class="dropdown-divider"></div>	<a class="dropdown-item" href="javascript:;">Separated link</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end breadcrumb-->
+
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-6">
+											<h5 class="mb-4">Cash Balance</h5>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-6 text-right">
+											
+										</div>
+									</div>
+
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											<div class="form-group">
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+												<label class="form-check-label" for="inlineRadio1">Sum</label>
+											</div>
+											<div class="form-check form-check-inline">
+												<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+												<label class="form-check-label" for="inlineRadio1">Compare</label>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											
+										</div>
+									
+									</div>
+									<div class="" id="carbalance"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-6">
+											<h5 class="mb-4">Notifications</h5>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-6 text-right">
+											
+										</div>
+									</div>
+									
+									<div class="alert bg-warning text-white alert-dismissible fade show" role="alert">
+										Low Cash On Hand for $1 and $5 bills...include the amount remaining<br>
+"<strong>Example:</strong> 10/15/2021 1:25 PM - Low cash on hand - Coppell - Lane C2 - Dispenser $1, $23 remaining"
+10/15/2021 2:25 PM - Low cash on hand - Rufe Snow- Lane RS1 - Dispenser $5, $70 remaining"
+
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">	<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="alert bg-warning text-white alert-dismissible fade show" role="alert">
+										Acceptance Money Withdrawn...include the location, lane, and amount withdrawn from the kiosk – <br>
+										<strong>Example:</strong> 10/15/2021 10:25 PM - Acceptance Money Withdrawn- Coppell - Lane C2 $4,325
+
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">	<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="alert bg-danger text-white alert-dismissible fade show" role="alert">10/15/2021 3:25 PM Out of Cash Rufe Snow - Lane RS2 - Dispenser $5
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">	<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="alert bg-warning text-white alert-dismissible fade show" role="alert">10/15/2021 10:25 PM - Acceptance Money Withdrawn
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">	<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="alert bg-success text-white alert-dismissible fade show" role="alert">
+										Cash Deposited....include amount deposited - <br>
+										10/15/2021 5:25 PM - Cash Deposited - Coppell - Lane C3 - Dispenser $1, $600
+										<button type="button" class="close" data-dismiss="alert" aria-label="Close">	<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					<!--end row-->
+
+					<div class="row">
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div>
+										<h5 class="mb-4">Cash Depletion Per Day</h5>
+									</div>
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											<div class="form-group">
+												<label>Location</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											<div class="form-group">
+												<label>From</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-4">
+											<div class="form-group">
+												<label>To</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										
+									</div>
+									<div class="" id="averagedepletion"></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-12 col-lg-6">
+							<div class="card radius-15">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-6">
+											<h5 class="mb-4">Monthly Dispenser Deposit Trend</h5>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-6 text-right">
+											
+										</div>
+
+									</div>
+								
+									<div class="row">
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Location</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Coppell</option>
+													<option>Mesquite</option>
+													<option>Rufe Snow</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>Lane</label>
+												<select class="form-control form-control-sm">
+													<option>All</option>
+													<option>Lane C1</option>
+													<option>Lane C2</option>
+													<option>Lane C3</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>From</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										<div class="col-sm-12 col-md-12 col-lg-3">
+											<div class="form-group">
+												<label>To</label>
+												<input class="form-control" type="date">
+											</div>
+										</div>
+										
+									</div>
+									<div class="" id="chart30"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--end row-->
+					
+				</div>
+			</div>
+			<!--end page-content-wrapper-->
+		</div>
+		<!--end page-wrapper-->
+		<!--start overlay-->
+		<div class="overlay toggle-btn-mobile"></div>
+		<!--end overlay-->
+		<!--Start Back To Top Button--> <a href="javascript:;" class="back-to-top"><i class='bx bxs-up-arrow-alt'></i></a>
+		<!--End Back To Top Button-->
+		<!--footer -->
+		<div class="footer">
+			<p class="mb-0">Car Wash Dashboard &copy; 2021
+			</p>
+		</div>
+		<!-- end footer -->
+	</div>
+	<!-- end wrapper -->
+	
+	<!-- JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/popper.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!--plugins-->
+	<script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+	<script src="assets/plugins/metismenu/js/metisMenu.min.js"></script>
+	<script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+	<script src="assets/plugins/apexcharts-bundle/js/apexcharts.min.js"></script>
+	<script src="assets/plugins/apexcharts-bundle/js/apex-custom.js"></script>
+	<!-- App JS -->
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>
