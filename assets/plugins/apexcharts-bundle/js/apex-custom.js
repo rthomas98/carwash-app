@@ -959,7 +959,7 @@ var options = {
 	intersect: false
   },
   xaxis: {
-	categories: ['12:00 PM ', '8:00 AM'],
+	categories: ['9:00 AM ', '8:00 AM'],
   },
   
   };
@@ -1022,7 +1022,7 @@ var options = {
 	min: 0
 },
 legend: {
-    show: false
+    show: true
   },
   };
 
@@ -1091,12 +1091,12 @@ legend: {
 		width: 560,
 		type: 'pie',
 	  },
-	  labels: ['Deluxe', 'Peak', 'Summit', 'Everest'],
+	  labels: ['Deluxe – 155, $1,705', 'Peak- 230, $3,450', 'Summit- 40, $800', 'Everest-75, $1,800'],
 	  responsive: [{
 		breakpoint: 480,
 		options: {
 		  chart: {
-			width: 200
+			width: 300
 		  },
 		  legend: {
 			position: 'top'
@@ -1562,7 +1562,7 @@ legend: {
 	  tooltip: {
 		y: {
 			formatter: function (val) {
-				return "$ " + val
+				return "$" + val
 			}
 		}
 	},
@@ -1599,7 +1599,7 @@ legend: {
 	  },
 	  colors: ["#673ab7", "#f02769"],
 	  responsive: [{
-		breakpoint: 480,
+		breakpoint: 500,
 		options: {
 		  legend: {
 			position: 'bottom',
@@ -1609,20 +1609,18 @@ legend: {
 		}
 	  }],
 	  xaxis: {
-		categories: ['Jan-21', 'Feb-21,', 'Mar-21', 'Apr-21', 'May-21', 'Jun-21', 'Aug-21', 'Sep-21', 'Oct-21', 'Nov-21', 'Dec-21'],
+		categories: ['Feb-21', 'Mar-21', 'Apr-21', 'May-21', 'Jun-21', 'Jul-21', 'Aug-21', 'Sept -21'],
 	  },
 	  fill: {
 		opacity: 1
 	  },
 	  legend: {
-		position: 'right',
-		offsetX: 0,
-		offsetY: 50
+		position: 'bottom'
 	  },
 	  tooltip: {
 		y: {
 			formatter: function (val) {
-				return "$ " + val
+				return "$" + val
 			}
 		}
 	},
@@ -1636,7 +1634,7 @@ legend: {
 
 		var options = {
 			series: [{
-				name: "Expected Revenue",
+				name: "Projected Revenue",
 				data: [80000, 77000, 70000, 78000, 80000, 90000, 100000, 158000, 160000, 170000, 175000, 155000]
 			},
 			{
@@ -1674,7 +1672,7 @@ legend: {
 			tooltip: {
 				y: {
 					formatter: function (val) {
-						return "$ " + val
+						return "$" + val
 					}
 				}
 			},
@@ -1689,14 +1687,14 @@ legend: {
 var options = {
 	series: [{
 	name: 'Coppell',
-	data: [250, 400,]
+	data: [2500, 4000,]
   }, {
 	name: 'Mesquite',
-	data: [300, 350,]
+	data: [3000, 3500,]
   },
   {
 	name: 'Rufe Snow',
-	data: [350, 250,]
+	data: [3500, 2500,]
   }
 ],
 	chart: {
@@ -1719,7 +1717,7 @@ var options = {
 	  colors: ['#fff']
 	}
   },
-  colors: ["#673ab7", "#f02769", "#198fed"],
+  colors: ["#673ab7", "#f02769", "#32ab13"],
   stroke: {
 	show: true,
 	width: 1,
@@ -1730,7 +1728,7 @@ var options = {
 	intersect: false
   },
   xaxis: {
-	categories: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+	categories: ['Week 1', 'Week 2'],
 	title: {
 		text: 'Week',
 	},
@@ -1750,7 +1748,7 @@ legend: {
 
 		  var options = {
 			series: [{
-				name: "Expected Membership Value",
+				name: "Projected Membership Value",
 				data: [150000, 165000, 170000, 172000, 176000, 177000, 179000, 180000, 182000, 185000]
 			},
 			{
@@ -1800,8 +1798,8 @@ legend: {
 
 			var options = {
 				series: [{
-					name: "Expected Labor & of Cost",
-					data: [17, 16, 15, 14, 13, 13, 13, 13, 13, 13, 13, 13]
+					name: "Projected Labor & of Cost",
+					data: [17, 16, 15, 14, 14, 13, 14, 13, 13, 14, 13, 14]
 				},
 				{
 					name: "Actual Labor & of Cost",
@@ -1821,7 +1819,7 @@ legend: {
 				stroke: {
 				curve: 'smooth'
 				},
-				colors: ["#673ab7", "#f02769"],
+				colors: ["#f02769", "#32ab13"],
 				grid: {
 				row: {
 					colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
