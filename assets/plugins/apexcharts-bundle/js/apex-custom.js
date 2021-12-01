@@ -1590,7 +1590,7 @@ legend: {
 		data: [21000, 22500, 19685, 21988, 22820, 23241, 23025, 24200]
 	  }, {
 		name: 'Fixed Expense',
-		data: [63000, 22500, 19685, 21988, 22820, 23241, 23025, 24200]
+		data: [63000, 50420, 41977, 63200, 54630, 49900, 48856, 50355]
 	  }],
 		chart: {
 		type: 'bar',
@@ -1730,7 +1730,7 @@ var options = {
   xaxis: {
 	categories: ['Week 1', 'Week 2'],
 	title: {
-		text: 'Week',
+		text: 'Car Count',
 	},
   },
 
@@ -1798,7 +1798,7 @@ legend: {
 
 			var options = {
 				series: [{
-					name: "Projected Labor & of Cost",
+					name: "Projected Labor % of Sales",
 					data: [17, 16, 15, 14, 14, 13, 14, 13, 13, 14, 13, 14]
 				},
 				{
