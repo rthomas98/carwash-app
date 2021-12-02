@@ -1802,7 +1802,7 @@ legend: {
 					data: [17, 16, 15, 14, 14, 13, 14, 13, 13, 14, 13, 14]
 				},
 				{
-					name: "Actual Labor & of Cost",
+					name: "Actual Labor % of Sales",
 					data: [15, 14, 15, 14, 15, 14, 15, 14, 14, 15, 14, 15]
 				}
 			],
