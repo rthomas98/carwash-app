@@ -5,10 +5,10 @@ function initMap() {
 	// Basic map  
 	map = new google.maps.Map(document.getElementById('simple-map'), {
 		center: {
-			lat: -34.397,
-			lng: 150.644
+			lat: 32.8203525,
+			lng: -97.0117411
 		},
-		zoom: 8
+		zoom: 10,
 	});
 	// marker map
 	var myLatLng = {
