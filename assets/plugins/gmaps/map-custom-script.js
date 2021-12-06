@@ -9,21 +9,57 @@ function initMap() {
 			lng: -97.0117411
 		},
 		zoom: 10,
+
 	});
+	
 	// marker map
 	var myLatLng = {
-		lat: -25.363,
-		lng: 131.044
+		lat: 32.8203525,
+		lng: -97.0117411
 	};
+
+
+	var coppellLatLng = {
+		lat: 32.9580174,
+		lng: -97.0527157
+	};
+
+	var rufeLatLng = {
+		lat: 32.8680389,
+		lng: -97.240187
+	};
+
+	var mesqLatLng = {
+		lat: 32.7653831,
+		lng: -96.6477122
+	};
+
 	var map = new google.maps.Map(document.getElementById('marker-map'), {
-		zoom: 4,
+		zoom: 10,
 		center: myLatLng
 	});
+
 	var marker = new google.maps.Marker({
-		position: myLatLng,
+		position: coppellLatLng,
 		map: map,
-		title: 'Hello World!'
+		title: 'Coppell, TX',
+		animation: google.maps.Animation.DROP,
 	});
+
+	var marker = new google.maps.Marker({
+		position: mesqLatLng,
+		map: map,
+		title: 'Mesquite, TX',
+		animation: google.maps.Animation.DROP,
+	});
+
+	var marker = new google.maps.Marker({
+		position: rufeLatLng,
+		map: map,
+		title: 'Rufe Snow, TX',
+		animation: google.maps.Animation.DROP,
+	});
+
 	// overlays map	
 	var overlay;
 	USGSOverlay.prototype = new google.maps.OverlayView();
